@@ -10,7 +10,8 @@ Boolean rodar = true;
 
 while (rodar)
 {
-    Console.WriteLine("Digite seu palpite: ");
+    Console.Clear();
+    Console.Write("Digite seu palpite: ");
 
     if (game.VerificarResposta(game.ReceberPalpite()))
         rodar = false;

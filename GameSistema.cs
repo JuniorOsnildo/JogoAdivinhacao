@@ -9,7 +9,6 @@ public class GameSistema
     private int _rodadafinal;
     private int _dificuldade;
     
-    
    /*
     * Difculdades:
     * 1 -> fácil
