@@ -21,7 +21,7 @@ public class GameSistema
         EscolherDificuldade();
         
         Random random = new Random();
-        this._resposta = random.Next(1, this._dificuldade*12);
+        this._resposta = random.Next(1, this._dificuldade*10);
         this._rodadafinal = 10 - this._dificuldade;
     }
     
